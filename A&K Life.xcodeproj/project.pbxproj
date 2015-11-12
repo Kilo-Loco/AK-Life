@@ -54,14 +54,38 @@
 		7C7436C11BF3E26400555437 /* A&K Life */ = {
 			isa = PBXGroup;
 			children = (
-				7C7436C21BF3E26400555437 /* AppDelegate.swift */,
-				7C7436C41BF3E26400555437 /* ViewController.swift */,
+				7C7436D61BF4097500555437 /* Controller */,
+				7C7436D51BF4096A00555437 /* View */,
+				7C7436D41BF4096000555437 /* Model */,
 				7C7436C61BF3E26400555437 /* Main.storyboard */,
 				7C7436C91BF3E26400555437 /* Assets.xcassets */,
 				7C7436CB1BF3E26400555437 /* LaunchScreen.storyboard */,
 				7C7436CE1BF3E26400555437 /* Info.plist */,
 			);
 			path = "A&K Life";
+			sourceTree = "<group>";
+		};
+		7C7436D41BF4096000555437 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7C7436D51BF4096A00555437 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7C7436D61BF4097500555437 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7C7436C41BF3E26400555437 /* ViewController.swift */,
+				7C7436C21BF3E26400555437 /* AppDelegate.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
